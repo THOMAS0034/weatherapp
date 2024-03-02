@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="search-bar">
+    <input type="text" placeholder="enter your location">
+    <button class="search-button" type="submit"><i class="fa fa-search"></i></button>
+  </div>
+  <div class="error">
+    <h3></h3>
+  </div>
+  <div class="temp">
+    <img src="images/rain.png" class="weather-image" alt="">
+    <h1 class="temperature"></h1>
+    <h1 class="city" ></h1>
+    <div class="details">
+      <div class="col">
+        <img class="humidity-image" src="images/humidity.png" alt="">
+        <div class="humidity" >
+        <p class="humidity-value"></p>
+        <p>humidity</p>
+      </div>
+      </div>
+      <div class="col">
+        <img class="wind-image" src="images/wind.png" alt="">
+        <div class="wind">
+        <p class="wind-speed"></p>
+        <p>Wind Speed</p>
+      </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <script src="https://kit.fontawesome.com/7c8801c017.js" crossorigin="anonymous"></script>
+  <script src="index.js"></script>
+</body>
+</html>
